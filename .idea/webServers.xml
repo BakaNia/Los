@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3de0cb40-79b9-4210-8aaa-d145faf921fd" name="digital" url="http://167.172.6.180">
+        <fileTransfer rootFolder="/var/www/Andriiuk-project" accessType="SFTP" host="167.172.6.180" port="22" sshConfigId="62c0f81a-9aec-4da9-b15d-f7fbaf35d460" sshConfig="andriiuk@167.172.6.180:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

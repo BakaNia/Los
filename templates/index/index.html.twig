@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Typography {% endblock %}
+
+{% block body %}
+    <h1>Entity</h1>
+    <div><a href="{{ path('contract_index') }}">Contract</a></div>
+    <div> <a href="{{ path('order_index') }}">Order</a></div>
+    <div><a href="{{ path('production_index') }}">Production</a></div>
+    <div> <a href="{{ path('user_index') }}">User</a></div>
+{% endblock %}
